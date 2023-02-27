@@ -1,0 +1,63 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+main{
+    position: relative;
+    width: 95%;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    position: relative;
+    width: auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+
+#img_guitarra_header{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    left: 4.5%;
+}
+
+nav{
+    position: relative;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    
+    list-style: none; 
+    margin: 20px;
+    display: inline;
+}
+
+nav li a{
+    padding: 5px 10px;
+    margin: 0;
+    border: 0px solid #f00;
+    background: #903;
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav li a:hover {
+    background: #a5e691;
+    color: #000; 
+    border-color: #000;
+}

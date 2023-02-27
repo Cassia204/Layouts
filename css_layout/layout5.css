@@ -1,0 +1,161 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    position: relative;
+    width: 90%;
+    height: 5%;
+    background-color: rgba(123, 135, 169, 0.333);
+    margin: auto;
+}
+
+header{
+    position: relative;
+    width: auto;
+    height: 100px;
+    padding-top: 20px 0;
+    padding-bottom: 20px 0;
+    background-color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+#menu{
+    position: relative;
+    width: auto;
+    height: 50px;
+    padding-top: 5px 0;
+    padding-bottom: 5px 0;
+    background-color: rgb(8, 8, 186);
+    
+}
+#menu li {
+    list-style: none; 
+    margin: 110px;
+    display: inline;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#menu li a:hover {
+    background: #a5e691;
+    color: #000; 
+    border-color: #000;
+}
+
+#menulateral{
+    position: relative;
+    width: 17%;
+    height: 750px;
+    color: #fff; 
+    float: left;
+}
+
+#menulateral li{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    background-color: rgb(138, 137, 130);
+    margin-top: 0.5%;
+    float: left;
+}
+
+#menulateral li a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+section{
+    position: relative;
+    width: 60%;
+    height: 767px;
+    float: left;
+}
+
+section h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #000;  
+}
+
+#primeira_img{
+    position: relative;
+    width: 90%;
+    height: 300px;
+    left: 4.5%;
+}
+
+p{
+    position: relative;
+    width: 90%;
+    height: 150px;
+    left: 4.5%;
+    background-color: rgb(166, 222, 234);
+    text-align: left;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5%; 
+    float: left;
+    
+}
+
+#img_estrada{
+    position: relative;
+    width: 27%;
+    height: 210px;
+    left: 4.5%;
+    margin: 4px;
+    margin-top: 1.5%; 
+    float: left;
+  
+}
+
+#img_lua{
+    position: relative;
+    width: 27%;
+    height: 210px;
+    left: 4.5%;
+    margin: 4px;
+    margin-top: 1.5%; 
+    float: left;
+   
+}
+
+#img_sol{
+    position: relative;
+    width: 27%;
+    height: 210px;
+    left: 4.5%;
+    margin: 4px;
+    margin-top: 1.5%; 
+    float: left;
+   
+}
+
+#img_colar_filhos{
+    position: relative;
+    width: 23%;
+    height: 767px;
+    float: left;
+
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    text-align: center ;
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 2%;
+    clear: left;
+}
